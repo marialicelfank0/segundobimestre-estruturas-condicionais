@@ -58,4 +58,56 @@ programa
 }
 
 13)
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro codigo, quantidade
+		real valor=0
+		
+		escreva("Informe o codigo do alimento: ")
+		leia(codigo)
+		
+		escreva("Me informe a quantidade que deseja comprar: ")
+		leia(quantidade)
+		
+		escolha(codigo){
+			caso 100:
+			valor = 5.00 * quantidade
+			pare
+			
+			caso 101:
+			valor = 
+2.60 * quantidade
+			pare
+			
+			caso 102:
+			valor = 3.80 * quantidade
+			pare
+			
+			caso 103:
+			valor = 9.00 * quantidade
+			pare
+
+			caso 104:
+			valor = 11.00 * quantidade
+			pare
+			
+			caso 105:
+			valor = 3.00 * quantidade
+			pare
+
+			caso 106:
+			valor = 1000.00 * quantidade
+			pare
+			
+			
+		} 
+		
+			escreva("Voce pagara: ", valor)
+		}
+	
+}
+
 
